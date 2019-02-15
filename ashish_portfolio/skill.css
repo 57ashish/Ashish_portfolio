@@ -1,0 +1,95 @@
+#fourth{
+  margin-left: 12%;
+  margin-top: -10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+.containers {
+  width:400px;
+  background-color:rgba(0,0,0,0.3);
+}
+
+.skills {
+  text-align: right;
+  padding: 6px;
+  color:rgba(0,0,0,0.3);
+}
+.skil{
+  position: relative;
+  animation: mymoveskil 6s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+ 
+}
+@keyframes mymoveskil {
+  from {top: -200px;}
+  to {top: 10px; opacity: 1;}
+
+}
+#fourth p{
+  color: #FEFFFF;
+}
+
+ .html{
+  width:85%;
+  background-color: #FEFFFF;
+
+  }
+  
+ .css
+  {
+    width: 80%; background-color: #D79922;}
+.js{width: 75%; background-color: #FFE400;}
+
+.php{width: 55%; background-color: #FF652F;}
+
+.java{width: 75%; background-color: #FFE400;}
+
+.c{width: 70%; background-color: #84CEEB;}
+
+.cpp{width: 65%; background-color: #3AAFA9;}
+
+.mysql{width: 75%; background-color: #FFE400;}
+.first1{
+  float: left;
+  padding: 20px;
+  margin-left:5%;
+  
+}
+.second2{
+  float: left;
+  padding: 20px;
+  margin-left: 5%;
+  
+}
+#sk{
+  text-align: center;
+  text-decoration: underline red;
+  position: relative;
+   animation: mymovesk 4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+ 
+}
+@keyframes mymovesk {
+  from {top: -300px;}
+  to {top: 20px; opacity: 1;}
+ }
+  @media only screen and (max-width:560px) {
+
+    .containers {
+  width:200px;
+}
+@media only screen and (min-width: 560px) and (max-width: 900px){
+    .containers {
+  width:300px;
+  }
+
+}
+  @media only screen and (min-width:901px) {
+
+    .containers {
+  width:500px;
+}
+
+}

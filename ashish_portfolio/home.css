@@ -1,0 +1,417 @@
+body,html{
+	background: url("home1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#mySidenav{
+ margin-top:15%;
+ }
+#mySidenav a {
+  position:fixed;
+  left: -80px;
+  transition: 0.3s;
+  padding: 12px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 200px;
+  background-color: #4CAF50;
+}
+#home i{
+	padding-left:25px;
+    }
+#about {
+  top:250px;
+  background-color: #2196F3;
+}
+#about i{
+padding-left:23px;
+}
+#projects {
+  top:300px;
+  background-color: #000033;
+}
+#projects i {
+       padding-left:9px;
+       }
+#contact {
+ top: 450px;
+  background-color:#66ff66;
+  
+}
+#contact i{
+   padding-left:11px;
+   }
+   
+#education {
+ top: 350px;
+  background-color: #555
+}
+#education i{
+   padding-left:15px;
+   }
+#skill {
+  top: 400px;
+  background-color: #ff1a1a;
+}
+#skill i{
+   padding-left:28px;
+   }
+   .h{
+   	text-align:center;
+	font-size:40px;
+	color:#cccc00;
+   position: relative;
+   animation: mymove 6s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+ 
+}
+@keyframes mymove {
+  from {top: 0;}
+  to {top:200px; opacity: 1;}
+ 
+   }
+
+   .hh{
+   	  	text-align:center;
+	   color:#008000;
+	   font-style:bold;
+      position: relative;
+   animation: mymove1 4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+ 
+}
+@keyframes mymove1 {
+  from {top:0;}
+  to {top:200px; opacity: 1;}
+ 
+   }
+
+
+@media only screen and (max-width: 500px){
+  .h{
+      text-align:center;
+  font-size:40px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  }
+  .hh{
+      text-align:center;
+  font-size:20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+ #home{
+  top:30%;
+}
+#home i{
+  padding-left:25px;
+    }
+#about {
+  top:38%;
+ 
+}
+#about i{
+padding-left:23px;
+}
+#projects {
+  top: 46%;
+ 
+}
+#projects i {
+       
+       }
+#contact {
+ top: 70%;
+  
+  
+}
+#contact i{
+   padding-left:11px;
+   }
+   
+#education {
+ top: 54%;
+  
+}
+#education i{
+   padding-left:15px;
+   }
+#skill {
+  top:62%;
+  
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 500px) and (max-width: 830px){
+body{
+  width: 100vw;
+  height: 100vh;
+}
+ #home{
+  top:15%;
+}
+#home i{
+  padding-left:25px;
+    }
+#about {
+  top:28%;
+ 
+}
+#about i{
+padding-left:23px;
+}
+#projects {
+  top: 41%;
+ 
+}
+#projects i {
+       
+       }
+#contact {
+ top: 80%;
+  
+  
+}
+#contact i{
+   padding-left:11px;
+   }
+   
+#education {
+ top: 54%;
+  
+}
+#education i{
+   padding-left:15px;
+   }
+#skill {
+  top:67%;
+  
+} 
+.h{
+      text-align:center;
+  font-size:40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: -100px;
+
+  }
+  .hh{
+      text-align:center;
+  font-size:20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-height:900px) {
+  .h{
+      text-align:center;
+  font-size:35px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  }
+  .hh{
+      text-align:center;
+  font-size:25px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  }
+} 
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-height: 1101px) (min-width: 900px){
+  #home{
+  top:28%;
+}
+#home i{
+  padding-left:25px;
+    }
+#about {
+  top:32%;
+ 
+}
+#about i{
+padding-left:23px;
+}
+#projects {
+  top: 36%;
+ 
+}
+#projects i {
+       
+       }
+#education {
+ top:40%;
+  
+}
+#education i{
+   padding-left:15px;
+   }
+#contact {
+ top: 48%;
+  
+  
+}
+#contact i{
+   padding-left:11px;
+   }
+   
+
+#skill {
+  top:44%;
+  
+} 
+ .h{
+      text-align:center;
+  font-size:50px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  }
+  .hh{
+      text-align:center;
+  font-size:40px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+}@media only screen and (min-height: 1024px) and (max-height: 1100px){
+  #home{
+  top:28%;
+}
+#home i{
+  padding-left:25px;
+    }
+#about {
+  top:33%;
+ 
+}
+#about i{
+padding-left:23px;
+}
+#projects {
+  top: 38%;
+ 
+}
+#projects i {
+       
+       }
+#education {
+ top:43%;
+  
+}
+#education i{
+   padding-left:15px;
+   }
+#contact {
+ top: 53%;
+  
+  
+}
+#contact i{
+   padding-left:11px;
+   }
+   
+
+#skill {
+  top:48%;
+  
+} 
+ .h{
+      text-align:center;
+  font-size:50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 150px;
+
+  }
+  .hh{
+      text-align:center;
+  font-size:40px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  }
+@media only screen and (min-width:900px) {
+  #home{
+  top:28%;
+}
+#home i{
+  padding-left:25px;
+    }
+#about {
+  top:33%;
+ 
+}
+#about i{
+padding-left:23px;
+}
+#projects {
+  top: 38%;
+ 
+}
+#projects i {
+       
+       }
+#education {
+ top:43%;
+  
+}
+#education i{
+   padding-left:15px;
+   }
+#contact {
+ top: 53%;
+  
+  
+}
+#contact i{
+   padding-left:11px;
+   }
+   
+
+#skill {
+  top:48%;
+  
+} 
+ .h{
+      text-align:center;
+  font-size:50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 150px;
+
+  }
+  .hh{
+      text-align:center;
+  font-size:40px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  }
